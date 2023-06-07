@@ -19,33 +19,31 @@ Antes de levantar o clúster é necesario crear un par de chaves RSA. Proporció
 
 ### Xestión do clúster Hadoop
 + Levantar o clúster
-    ```bash 
-    vagrant up
-    ```
+
+  `vagrant up`
+
 + Salvar o estado do clúster
-    ```bash 
-    vagrant suspend
-    ```
+
+  `vagrant suspend`
+
 + Recuperar o estado salvado do clúster
-    ```bash 
-    vagrant resume
-    ```
+
+  `vagrant resume`
 
 + Eliminar o escenario
-    ```bash 
-    vagrant destroy
-    ```
+
+  `vagrant destroy`
+
 + shutdown vm's
-    ```bash 
-    vagrant halt
-    ```
+
+  `vagrant halt`
 
 + ssh a unha máquina específica
-    ```bash 
-    vagrant ssh <YOUR-VM-NAME>
-    ```
+
+  `vagrant ssh <YOUR-VM-NAME>`
+
   por exemplo:
-  ```bash 
+  ```
     vagrant ssh hadoop-master
     vagrant ssh hadoop-worker1
     ```
