@@ -9,10 +9,12 @@ O código desenvolveuse durante un Proxecto de Formación de profesorado de Form
 
 ### Descargar o código
 Clonar o repositorio desde a terminal:
+
 `git clone https://github.com/bigdatawirtz/pffp_devops-hadoop_cluster.git`
 
 ### Configuración
-Antes de levantar o clúster é necesario que crees un par de chaves RSA. Proporciónase un script para facilitar esta tarefa:
+Antes de levantar o clúster é necesario crear un par de chaves RSA. Proporciónase un script para facilitar esta tarefa:
+
 `./scripts/0_keygen_in_localhost.sh`
 
 ### Xestión do clúster Hadoop
@@ -49,7 +51,7 @@ Antes de levantar o clúster é necesario que crees un par de chaves RSA. Propor
     ```
 
 ### Interfaces de monitorización
-+ http://10.20.30.11:9870  #hdfs webUI
-+ http://10.20.30.11:8088  #yarn webUI
++ http://192.168.33.11:9870  #hdfs webUI
++ http://192.168.33.11:8088  #yarn webUI
 
 
